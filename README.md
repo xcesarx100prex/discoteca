@@ -1,2 +1,0 @@
-# discoteca
-proyecto_web
