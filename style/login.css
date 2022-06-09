@@ -1,0 +1,101 @@
+:root{
+    --very-light-pink:#C7C7C7;
+    --text-input-field:#F7F7F7;
+    --white:#FFFF;
+    --black:#000000;
+    --hospital-green:#ACD9B2; 
+    --sm:14px;
+    --md:16px;
+    --lg:18px;
+  }
+body{
+    background-image: url("/PROYECTO/ICON/fondo.jpeg");
+    margin:0;
+
+}
+.cabezilla img{
+    background-color: blue;
+    width: 60px;
+    height:60px;
+}   
+.login{
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    place-items: center;
+}
+.form-container
+{
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color:black;
+    display:grid;
+    grid-template-rows:auto 1fr auto;
+    justify-self: center;
+    border-radius: 5%;
+
+}
+.logo{
+    width: 200px;
+    height:200px;
+    margin: 30px;
+    justify-self:center;
+   /* border-radius: 1cm black;
+*/
+}
+.form-title{
+    color:white;
+    font-size:30px;
+    margin-top: 1px;
+    text-align: center;
+}
+.form-formulario
+{
+        display:flex;
+        flex-direction: column;
+}
+.label{
+    color:white;
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.input{
+    background-color: var(--text-input-field);
+    border:none;
+    border-radius:8px;
+    height:30px;
+    font-size: var(--md);
+    padding:6px;
+    margin-bottom: 12px;
+  }
+  .input::after
+  {
+    background-color: darkblue;
+  }
+  .primary-button{
+    background-color: blue;
+    border-radius: 8px;
+    border: none;
+    color:var(--white);
+    width: 100%;
+    cursor:pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
+.login-button{
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+.registro
+{
+    
+    margin:none;
+    color:yellow;
+    font-size:25px;
+}
+.registro::before{
+    color: aqua;
+}
+
